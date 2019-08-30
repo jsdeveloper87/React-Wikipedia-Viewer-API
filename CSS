@@ -1,0 +1,60 @@
+$azure-glow: 0 0 1px azure, 0 0 2px azure, 0 0 3px azure, 0 0 4px azure, 0 0 5px azure, 0 0 6px azure, 0 0 7px azure;
+
+body {
+  background-color: #082B3F;
+  font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
+#title {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+#search {
+  margin-left: 440px;
+  width: 470px;
+  height: 25px;
+  border: 2px solid azure;
+  border-radius: 5px;
+  box-shadow: $azure-glow;
+}
+
+#searchBtn {
+  height: 35px;
+  width: 95px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+#results {
+  margin-left: 50px;
+}
+
+ a {
+  text-decoration: none;
+}
+
+h2 {
+  color: black;
+  margin-left: 20px;
+}
+
+p {
+  height: 50px;
+  color: black;
+  border-radius: 5px;
+  color: black;
+  margin-left: 20px;
+}
+
+#result {
+  background-color: #E6E6E8;
+  width: 1150px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+#searchBtn:hover {
+  cursor: pointer;
+}
